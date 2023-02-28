@@ -1,160 +1,5 @@
-/* .todo-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.todo-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  max-width: 500px;
-}
-
-.todo-list li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #f2f2f2;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-.todo-list li button {
-  background-color: #ff7f50;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.todo-input {
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 5px;
-  border: none;
-  width: 100%;
-  max-width: 500px;
-  margin-bottom: 10px;
-}
-
-.todo-input:focus {
-  outline: none;
-  box-shadow: 0 0 5px #ff7f50;
-} */
-
-/* .todo-container {
-  background-image: url('assets/autum6.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.todo-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.todo-list li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 500px;
-}
-
-.todo-input {
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  margin-right: 10px;
-  width: 100%;
-  max-width: 400px;
-}
-
-button {
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #3e8e41;
-} */
-/* 
 .todo-container {
-  background-image: url('assets/autum7.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.todo-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.todo-list li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: transparent;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 500px;
-}
-
-.todo-input {
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  margin-right: 10px;
-  width: 100%;
-  max-width: 400px;
-}
-
-button {
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-button:hover {
-  background-color: #3e8e41;
-} */
-
-
-.todo-container {
-  background-image: url('assets/autum3.jpg');
+  background-image: url('assets/abstract-paper-is-colorful-background-creative-design-pastel-wallpaper_6529-543.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -166,7 +11,7 @@ button:hover {
 
 .todo-title {
   font-size: 2rem;
-  color: #162f15a7;
+  color: #212821a7;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
 }
@@ -200,7 +45,7 @@ button:hover {
 }
 
 button {
-  background-color: #227f257c;
+  background-color: #2231227c;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -210,6 +55,22 @@ button {
 }
 
 button:hover {
-  background-color: #243325;
-  transform: rotate(30deg);
+  background-color: #23272396;
+  transform: rotate(10deg);
 }
+
+.error-message {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .center-text {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
