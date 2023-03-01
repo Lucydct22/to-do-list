@@ -1,6 +1,6 @@
 
-
 .todo-container {
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,3 +98,70 @@ button:hover {
   font-size: 24px;
   font-weight: bold;
 }
+
+
+body {
+  background-color: #a296a0;
+  }
+  
+  h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+ 
+  ::placeholder {
+  color: #999;
+  }
+  
+ 
+  .todo-item:hover {
+  background-color: #f9f9f9;
+  }
+  
+
+  .todo-item.completed {
+  background-color: #e0e0e0;
+  text-decoration: line-through;
+  }
+  
+
+  .trash-button:hover {
+  background-color: #d32f2f;
+  }
+  
+  
+  .no-trash {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  }
+  
+
+  .restore-button {
+  background-color: #4caf50;
+  color: #fff;
+  }
+  
+ 
+  .restore-button:hover {
+  background-color: #388e3c;
+  }
+  
+  
+  .confirmation {
+  font-size: 16px;
+  margin-top: 10px;
+  }
+  
+  
+  .confirm-delete-button {
+  background-color: #f44336;
+  color: #fff;
+  }
+  
+
+  .confirm-delete-button:hover {
+  background-color: #d32f2f;
+  }
