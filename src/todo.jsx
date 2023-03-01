@@ -248,10 +248,10 @@ const Todo = () => {
         <>
         <div>{todo.text}</div>
         <div className="todo-actions">
-        <button onClick={() => handleEditTodo(index)}>Edit</button>
-        <button onClick={() => handleDeleteTodo(index)}>Delete</button>
-        <button onClick={() => handleComplete(index)}>Complete</button>
-        </div>
+  <button onClick={() => handleDeleteTodo(index)}>Delete</button>
+  <button onClick={() => handleComplete(index)}>Complete</button>
+  <button onClick={() => setTrash([...trash, todo])} className="trash-button">Trash</button>
+</div>
         </>
         )}
         </div>
