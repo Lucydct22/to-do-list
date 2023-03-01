@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from "react";
 import "./todo.css";
 
+
+
 const Todo = () => {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
@@ -71,8 +73,10 @@ const Todo = () => {
   const completedTodos = todos.filter((todo) => todo.status === "complete");
 
   return (
+    
     <div className="todo-container">
       <h1>TO-DO LIST</h1>
+      <img src="assets/todolistbackground.jpg" alt="Logo" />
       {todos.length === 0 && <p className="error-message">No to-do items. Add a new item below!</p>}
       <div>
         <h2>In Progress</h2>
